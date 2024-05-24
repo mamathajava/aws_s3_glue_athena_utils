@@ -1,1 +1,26 @@
 This is a text file
+
+
+#Amazon Athena
+Amazon athena is a service that analyse
+It is a serverless system so there is no infrastructure to manage,no need to spin up server,no need to worry about scaling up or down if the load increase or decrease
+
+Amazon athena is interactive query service that makes easy to analyse data directly
+Athena works on data stored in Amazon s3
+
+#When should you use Amazon Athena?
+Athena helps to analyse unstructured, structured, semi-structured data stored in s3
+Athena integrates with Amazon Quick-sight for data visualization
+Athena integrates with AWS Data Catalog
+AWS Glue allows you to create tables and query data in Athena
+
+
+# Project Flow
+
+AWS S3 ---> AWS Glue Crawlers --->AWS Glue Data Catalog --->Amazon Athena --->Amazon Quick-Sight
+Source Data( Different systems put Data into S3)
+The Data then crawled by AWS crawler they run periodically or runs on adopt basis and automatically populate the catalog
+This system can be used by Amazon Redshift spectrum or Athena
+This data can be sent to amazon quick site where you can use visualization tools and show those data to your customer or data analyst
+
+

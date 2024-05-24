@@ -4,4 +4,9 @@ This project is about data reporting using s3 as a storage, glue as a data crawl
 # Report Process Engine
 1. AWS S3
 2. AWS Glue
-3. AWS athena 
+3. AWS athena
+
+
+# AWS S3:
+1. Storge purpose
+
